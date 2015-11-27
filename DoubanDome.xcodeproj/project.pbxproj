@@ -16,6 +16,14 @@
 		90C6C1951C080B3B00E35B40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90C6C1931C080B3B00E35B40 /* LaunchScreen.storyboard */; };
 		90C6C1A01C080B3B00E35B40 /* DoubanDomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C6C19F1C080B3B00E35B40 /* DoubanDomeTests.m */; };
 		90C6C1AB1C080B3B00E35B40 /* DoubanDomeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C6C1AA1C080B3B00E35B40 /* DoubanDomeUITests.m */; };
+		90C6C1BA1C08115700E35B40 /* aaTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C6C1B91C08115700E35B40 /* aaTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		90C6C1C31C0853E200E35B40 /* BasicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C6C1C21C0853E200E35B40 /* BasicView.m */; settings = {ASSET_TAGS = (); }; };
+		90C6C1CA1C0853ED00E35B40 /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C6C1C51C0853ED00E35B40 /* BasicViewController.m */; settings = {ASSET_TAGS = (); }; };
+		90C6C1CB1C0853ED00E35B40 /* BasicNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C6C1C71C0853ED00E35B40 /* BasicNavigationController.m */; settings = {ASSET_TAGS = (); }; };
+		90C6C1CC1C0853ED00E35B40 /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C6C1C91C0853ED00E35B40 /* MainTabBarViewController.m */; settings = {ASSET_TAGS = (); }; };
+		90C6C1D41C0854FF00E35B40 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C6C1D31C0854FF00E35B40 /* HomePageViewController.m */; settings = {ASSET_TAGS = (); }; };
+		90C6C1D91C08576700E35B40 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C6C1D81C08576700E35B40 /* UIView+Frame.m */; settings = {ASSET_TAGS = (); }; };
+		90C6C1DC1C08576D00E35B40 /* NSString+Method.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C6C1DB1C08576D00E35B40 /* NSString+Method.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +62,23 @@
 		90C6C1A61C080B3B00E35B40 /* DoubanDomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoubanDomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90C6C1AA1C080B3B00E35B40 /* DoubanDomeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoubanDomeUITests.m; sourceTree = "<group>"; };
 		90C6C1AC1C080B3B00E35B40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90C6C1B81C08115700E35B40 /* aaTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aaTableViewController.h; sourceTree = "<group>"; };
+		90C6C1B91C08115700E35B40 /* aaTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = aaTableViewController.m; sourceTree = "<group>"; };
+		90C6C1C11C0853E200E35B40 /* BasicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicView.h; sourceTree = "<group>"; };
+		90C6C1C21C0853E200E35B40 /* BasicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicView.m; sourceTree = "<group>"; };
+		90C6C1C41C0853ED00E35B40 /* BasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicViewController.h; sourceTree = "<group>"; };
+		90C6C1C51C0853ED00E35B40 /* BasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicViewController.m; sourceTree = "<group>"; };
+		90C6C1C61C0853ED00E35B40 /* BasicNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicNavigationController.h; sourceTree = "<group>"; };
+		90C6C1C71C0853ED00E35B40 /* BasicNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicNavigationController.m; sourceTree = "<group>"; };
+		90C6C1C81C0853ED00E35B40 /* MainTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarViewController.h; sourceTree = "<group>"; };
+		90C6C1C91C0853ED00E35B40 /* MainTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarViewController.m; sourceTree = "<group>"; };
+		90C6C1D21C0854FF00E35B40 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		90C6C1D31C0854FF00E35B40 /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		90C6C1D71C08576700E35B40 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		90C6C1D81C08576700E35B40 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		90C6C1DA1C08576D00E35B40 /* NSString+Method.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Method.h"; sourceTree = "<group>"; };
+		90C6C1DB1C08576D00E35B40 /* NSString+Method.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Method.m"; sourceTree = "<group>"; };
+		90C6C1DD1C08577400E35B40 /* CommonMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CommonMacros.h; path = ../CommonMacros.h; sourceTree = "<group>"; };
 		F4C482DC9835C76E805FDFC9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -108,6 +133,9 @@
 		90C6C1841C080B3B00E35B40 /* DoubanDome */ = {
 			isa = PBXGroup;
 			children = (
+				90C6C1BB1C08534600E35B40 /* Main */,
+				90C6C1BD1C08535200E35B40 /* Resource */,
+				90C6C1BC1C08534E00E35B40 /* Expand */,
 				90C6C1881C080B3B00E35B40 /* AppDelegate.h */,
 				90C6C1891C080B3B00E35B40 /* AppDelegate.m */,
 				90C6C18B1C080B3B00E35B40 /* ViewController.h */,
@@ -117,6 +145,8 @@
 				90C6C1931C080B3B00E35B40 /* LaunchScreen.storyboard */,
 				90C6C1961C080B3B00E35B40 /* Info.plist */,
 				90C6C1851C080B3B00E35B40 /* Supporting Files */,
+				90C6C1B81C08115700E35B40 /* aaTableViewController.h */,
+				90C6C1B91C08115700E35B40 /* aaTableViewController.m */,
 			);
 			path = DoubanDome;
 			sourceTree = "<group>";
@@ -145,6 +175,122 @@
 				90C6C1AC1C080B3B00E35B40 /* Info.plist */,
 			);
 			path = DoubanDomeUITests;
+			sourceTree = "<group>";
+		};
+		90C6C1BB1C08534600E35B40 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				90C6C1D11C0854D100E35B40 /* HomePage */,
+				90C6C1D01C0854CC00E35B40 /* Selection */,
+				90C6C1CF1C0854C600E35B40 /* Bvm */,
+				90C6C1CE1C0854C000E35B40 /* Group */,
+				90C6C1CD1C0854B800E35B40 /* Me */,
+				90C6C1BE1C08537D00E35B40 /* Other */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		90C6C1BC1C08534E00E35B40 /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				90C6C1D61C08575F00E35B40 /* Category */,
+				90C6C1D51C08575A00E35B40 /* Macros */,
+			);
+			path = Expand;
+			sourceTree = "<group>";
+		};
+		90C6C1BD1C08535200E35B40 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		90C6C1BE1C08537D00E35B40 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				90C6C1BF1C0853D000E35B40 /* BasicController */,
+				90C6C1C01C0853D400E35B40 /* BasicView */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		90C6C1BF1C0853D000E35B40 /* BasicController */ = {
+			isa = PBXGroup;
+			children = (
+				90C6C1C41C0853ED00E35B40 /* BasicViewController.h */,
+				90C6C1C51C0853ED00E35B40 /* BasicViewController.m */,
+				90C6C1C61C0853ED00E35B40 /* BasicNavigationController.h */,
+				90C6C1C71C0853ED00E35B40 /* BasicNavigationController.m */,
+				90C6C1C81C0853ED00E35B40 /* MainTabBarViewController.h */,
+				90C6C1C91C0853ED00E35B40 /* MainTabBarViewController.m */,
+			);
+			path = BasicController;
+			sourceTree = "<group>";
+		};
+		90C6C1C01C0853D400E35B40 /* BasicView */ = {
+			isa = PBXGroup;
+			children = (
+				90C6C1C11C0853E200E35B40 /* BasicView.h */,
+				90C6C1C21C0853E200E35B40 /* BasicView.m */,
+			);
+			path = BasicView;
+			sourceTree = "<group>";
+		};
+		90C6C1CD1C0854B800E35B40 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		90C6C1CE1C0854C000E35B40 /* Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Group;
+			sourceTree = "<group>";
+		};
+		90C6C1CF1C0854C600E35B40 /* Bvm */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bvm;
+			sourceTree = "<group>";
+		};
+		90C6C1D01C0854CC00E35B40 /* Selection */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Selection;
+			sourceTree = "<group>";
+		};
+		90C6C1D11C0854D100E35B40 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				90C6C1D21C0854FF00E35B40 /* HomePageViewController.h */,
+				90C6C1D31C0854FF00E35B40 /* HomePageViewController.m */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		90C6C1D51C08575A00E35B40 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				90C6C1DD1C08577400E35B40 /* CommonMacros.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		90C6C1D61C08575F00E35B40 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				90C6C1DA1C08576D00E35B40 /* NSString+Method.h */,
+				90C6C1DB1C08576D00E35B40 /* NSString+Method.m */,
+				90C6C1D71C08576700E35B40 /* UIView+Frame.h */,
+				90C6C1D81C08576700E35B40 /* UIView+Frame.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		A516655C0EDB717F533AD9A6 /* Frameworks */ = {
@@ -345,9 +491,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90C6C1C31C0853E200E35B40 /* BasicView.m in Sources */,
+				90C6C1CB1C0853ED00E35B40 /* BasicNavigationController.m in Sources */,
+				90C6C1D41C0854FF00E35B40 /* HomePageViewController.m in Sources */,
 				90C6C18D1C080B3B00E35B40 /* ViewController.m in Sources */,
 				90C6C18A1C080B3B00E35B40 /* AppDelegate.m in Sources */,
 				90C6C1871C080B3B00E35B40 /* main.m in Sources */,
+				90C6C1CC1C0853ED00E35B40 /* MainTabBarViewController.m in Sources */,
+				90C6C1BA1C08115700E35B40 /* aaTableViewController.m in Sources */,
+				90C6C1D91C08576700E35B40 /* UIView+Frame.m in Sources */,
+				90C6C1DC1C08576D00E35B40 /* NSString+Method.m in Sources */,
+				90C6C1CA1C0853ED00E35B40 /* BasicViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
