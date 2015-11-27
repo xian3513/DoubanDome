@@ -21,9 +21,10 @@
 		90C6C1CA1C0853ED00E35B40 /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C6C1C51C0853ED00E35B40 /* BasicViewController.m */; settings = {ASSET_TAGS = (); }; };
 		90C6C1CB1C0853ED00E35B40 /* BasicNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C6C1C71C0853ED00E35B40 /* BasicNavigationController.m */; settings = {ASSET_TAGS = (); }; };
 		90C6C1CC1C0853ED00E35B40 /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C6C1C91C0853ED00E35B40 /* MainTabBarViewController.m */; settings = {ASSET_TAGS = (); }; };
-		90C6C1D41C0854FF00E35B40 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C6C1D31C0854FF00E35B40 /* HomePageViewController.m */; settings = {ASSET_TAGS = (); }; };
 		90C6C1D91C08576700E35B40 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C6C1D81C08576700E35B40 /* UIView+Frame.m */; settings = {ASSET_TAGS = (); }; };
 		90C6C1DC1C08576D00E35B40 /* NSString+Method.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C6C1DB1C08576D00E35B40 /* NSString+Method.m */; settings = {ASSET_TAGS = (); }; };
+		90C6C1E31C085A9B00E35B40 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C6C1E21C085A9B00E35B40 /* HomePageViewController.m */; settings = {ASSET_TAGS = (); }; };
+		90C6C1E61C085B3100E35B40 /* RollNavbarFollowSrocllView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C6C1E51C085B3100E35B40 /* RollNavbarFollowSrocllView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,13 +73,16 @@
 		90C6C1C71C0853ED00E35B40 /* BasicNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicNavigationController.m; sourceTree = "<group>"; };
 		90C6C1C81C0853ED00E35B40 /* MainTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarViewController.h; sourceTree = "<group>"; };
 		90C6C1C91C0853ED00E35B40 /* MainTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarViewController.m; sourceTree = "<group>"; };
-		90C6C1D21C0854FF00E35B40 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
-		90C6C1D31C0854FF00E35B40 /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
 		90C6C1D71C08576700E35B40 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		90C6C1D81C08576700E35B40 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		90C6C1DA1C08576D00E35B40 /* NSString+Method.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Method.h"; sourceTree = "<group>"; };
 		90C6C1DB1C08576D00E35B40 /* NSString+Method.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Method.m"; sourceTree = "<group>"; };
 		90C6C1DD1C08577400E35B40 /* CommonMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CommonMacros.h; path = ../CommonMacros.h; sourceTree = "<group>"; };
+		90C6C1E11C085A9B00E35B40 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		90C6C1E21C085A9B00E35B40 /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		90C6C1E41C085B3100E35B40 /* RollNavbarFollowSrocllView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RollNavbarFollowSrocllView.h; sourceTree = "<group>"; };
+		90C6C1E51C085B3100E35B40 /* RollNavbarFollowSrocllView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RollNavbarFollowSrocllView.m; sourceTree = "<group>"; };
+		90C6C1E71C086A7E00E35B40 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		F4C482DC9835C76E805FDFC9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -147,6 +151,7 @@
 				90C6C1851C080B3B00E35B40 /* Supporting Files */,
 				90C6C1B81C08115700E35B40 /* aaTableViewController.h */,
 				90C6C1B91C08115700E35B40 /* aaTableViewController.m */,
+				90C6C1E71C086A7E00E35B40 /* PrefixHeader.pch */,
 			);
 			path = DoubanDome;
 			sourceTree = "<group>";
@@ -268,8 +273,9 @@
 		90C6C1D11C0854D100E35B40 /* HomePage */ = {
 			isa = PBXGroup;
 			children = (
-				90C6C1D21C0854FF00E35B40 /* HomePageViewController.h */,
-				90C6C1D31C0854FF00E35B40 /* HomePageViewController.m */,
+				90C6C1E01C085A8300E35B40 /* Model */,
+				90C6C1DF1C085A7D00E35B40 /* View */,
+				90C6C1DE1C085A7300E35B40 /* Controller */,
 			);
 			path = HomePage;
 			sourceTree = "<group>";
@@ -291,6 +297,31 @@
 				90C6C1D81C08576700E35B40 /* UIView+Frame.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		90C6C1DE1C085A7300E35B40 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				90C6C1E11C085A9B00E35B40 /* HomePageViewController.h */,
+				90C6C1E21C085A9B00E35B40 /* HomePageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		90C6C1DF1C085A7D00E35B40 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				90C6C1E41C085B3100E35B40 /* RollNavbarFollowSrocllView.h */,
+				90C6C1E51C085B3100E35B40 /* RollNavbarFollowSrocllView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		90C6C1E01C085A8300E35B40 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		A516655C0EDB717F533AD9A6 /* Frameworks */ = {
@@ -493,11 +524,12 @@
 			files = (
 				90C6C1C31C0853E200E35B40 /* BasicView.m in Sources */,
 				90C6C1CB1C0853ED00E35B40 /* BasicNavigationController.m in Sources */,
-				90C6C1D41C0854FF00E35B40 /* HomePageViewController.m in Sources */,
+				90C6C1E31C085A9B00E35B40 /* HomePageViewController.m in Sources */,
 				90C6C18D1C080B3B00E35B40 /* ViewController.m in Sources */,
 				90C6C18A1C080B3B00E35B40 /* AppDelegate.m in Sources */,
 				90C6C1871C080B3B00E35B40 /* main.m in Sources */,
 				90C6C1CC1C0853ED00E35B40 /* MainTabBarViewController.m in Sources */,
+				90C6C1E61C085B3100E35B40 /* RollNavbarFollowSrocllView.m in Sources */,
 				90C6C1BA1C08115700E35B40 /* aaTableViewController.m in Sources */,
 				90C6C1D91C08576700E35B40 /* UIView+Frame.m in Sources */,
 				90C6C1DC1C08576D00E35B40 /* NSString+Method.m in Sources */,

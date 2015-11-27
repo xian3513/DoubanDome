@@ -136,10 +136,10 @@
             </objects>
             <point key="canvasLocation" x="-333" y="433"/>
         </scene>
-        <!--View Controller-->
+        <!--Home Page View Controller-->
         <scene sceneID="27R-03-MXB">
             <objects>
-                <viewController id="tZj-CL-IO5" sceneMemberID="viewController">
+                <viewController id="tZj-CL-IO5" customClass="HomePageViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ig2-HQ-gz7"/>
                         <viewControllerLayoutGuide type="bottom" id="QPz-et-oJH"/>
@@ -150,7 +150,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="72O-Fr-2bn"/>
-                    <nil key="simulatedTopBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EFF-Gl-xgU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
